@@ -6,8 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/xpto', function(req, res, next) {
-  res.json({status: "funcionando", versao: "0.0.2"})
+router.get('/versao', function(req, res, next) {
+  res.json({status: "funcionando", versao: "0.0.3"})
 });
 
 module.exports = router;
