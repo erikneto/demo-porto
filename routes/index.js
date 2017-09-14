@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/xpto', function(req, res, next) {
-  res.json({status: "funcionando", versao: "0.0.1"})
+  res.json({status: "funcionando", versao: "0.0.2"})
 });
 
 module.exports = router;
